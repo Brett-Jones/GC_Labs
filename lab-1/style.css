@@ -1,0 +1,60 @@
+.shift-left{
+    margin-left: 20%;
+    margin-top: 15%;
+    background-color:
+        lightgrey;
+    border: solid
+        rgb(245, 99, 109) 100px;
+    border-radius: 10px;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+
+.account-confirm{
+    margin-top: 8%;
+    margin-bottom: 15px;    
+    color: #8f8989;
+    
+}
+
+.form-input {
+    min-height: 3rem;
+    margin-bottom: 1rem;
+    width: 80%;
+    
+    
+}
+
+.form-container {
+    display: grid;
+    margin-left: 6rem;
+    
+}
+
+button{
+    background-color:
+        rgb(77, 234, 219);
+    display: block;
+    margin-left: 42.5%;
+    margin-bottom: 20px;
+    margin-top: 3%;
+    padding: 10px 35px 10px 35px;
+    border-color:
+        rgb(77, 234, 219);
+    color: white;
+    font-weight: bold;
+
+}
+.checkbox{
+    margin-top: 10%;
+    margin-right: 47%;
+    color: #8f8989;
+}
+
+
+
+
