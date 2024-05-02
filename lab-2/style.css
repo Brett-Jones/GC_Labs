@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Jersey+15&family=Nanum+Brush+Script&family=Seaweed+Script&display=swap');
+
+
+body{
+    max-width: 800px;
+    align-items: center;
+
+}
+.header{
+    font-family: "Seaweed Script", cursive;
+    font-weight: bold;
+    font-size: 24px;
+    
+
+}
+
+.paragraph1{
+    font-family: "Nanum Brush Script", cursive;
+    font-weight: bold;
+}
+
+.paragraph2{
+    font-family: "Nanum Brush Script", cursive;
+    font-weight: bold;
+}
+
+.ship_pic{
+    width: 300px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.treasure_pic{
+    width: 300px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.ship_pic_box{
+    background-color: #efefef;
+    border-width: 2px;
+    width: 330px;
+    height: 280px;
+    border: solid 2px;
+    border-color: #ddd;
+    box-shadow: 5px 5px;
+    margin-left: 30px;
+    margin-bottom: 25px;
+    
+}
+
+.treasure_pic_box{
+    background-color: #efefef;
+    border-width: 2px;
+    width: 330px;
+    height: 280px;
+    border: solid 2px;
+    border-color: #ddd;
+    box-shadow: 5px 5px;
+    margin-right: 30px;
+    margin-bottom: 25px;
+}
+
+.float_right{
+    transform: rotate(5deg);
+    float: right; 
+}
+
+.float_left{
+    transform: rotate(355deg);
+    float: left;  
+}
+
+.ship_text{
+    margin-left: 120px;
+    margin-top: 15px;
+    font-family: "Nanum Brush Script", cursive;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.tresure_text{
+    margin-left: 120px;
+    margin-top: 15px;
+    font-family: "Nanum Brush Script", cursive;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+
+
+/* find out which class needs to have the postions
+look for CSS shadow
+
+ 
+
+
+
+*/
