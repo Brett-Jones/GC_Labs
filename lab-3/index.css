@@ -14,7 +14,10 @@ body{
 }
 
 .header-links{
-    justify-content: space-around;
+    display: grid;
+    grid-column: auto;
+    
+
 
 }
 
@@ -33,15 +36,17 @@ body{
 
 footer{
     display: flex;
-    flex-direction: row;
     background-color: rgb(247, 193, 162);
-    
+    position: fixed;
+	bottom: 0;
+    width: 100%;
 }
 
 .footer-links{
     display: flex;
     flex-direction: row;
-    justify-content: space-between ;
+
+
 }
 
 
