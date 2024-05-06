@@ -36,17 +36,25 @@ body{
 
 footer{
     display: flex;
+    flex-direction: row;
     background-color: rgb(247, 193, 162);
     position: fixed;
 	bottom: 0;
     width: 100%;
 }
 
+.chirpus{
+    width:20%
+}
+
 .footer-links{
     display: flex;
-    flex-direction: row;
+    justify-content: flex-end;
+    width: 80%;
+}
 
-
+.links {
+    margin-left: 5%;
 }
 
 
