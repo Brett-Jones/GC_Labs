@@ -1,0 +1,120 @@
+body{
+    /* background-color: red; */
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    margin: 0;
+
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.form-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.input, 
+button{
+    padding: 10px;
+    border-radius: 10px ;
+
+}
+
+.bullseye-container{
+    display: none;
+    background-color: black;
+    width: 66.6%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bullseye{
+    position: relative;
+    width: 10%;
+    height: 10px;
+
+}
+
+.circle{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: red;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.medium{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    
+}
+
+.small{
+    width: 100px;
+    height: 100px;
+   
+}
+
+@media screen and (min-width: 800px) {
+    .bullseye-container{
+        display: flex;
+    }
+
+    .form-container{
+        width: 33.4%;
+    }
+
+}
+
+.flex-container{
+    background-color: blueviolet;
+    width: 300px;
+    height: 300px;
+    display: flex;
+
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    background-color: firebrick;
+
+}
+
+
+
+
+
+
+

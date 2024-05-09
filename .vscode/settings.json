@@ -1,0 +1,9 @@
+{
+    "prettier.printWidth": 60,
+    "prettier.arrowParens": "avoid",
+    "prettier.enableDebugLogs": true,
+    "prettier.insertPragma": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleAttributePerLine": true,
+    "prettier.useTabs": true
+}
