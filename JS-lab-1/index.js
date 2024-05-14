@@ -1,6 +1,6 @@
-let firstName ="Brett"
+let firstName ="Brett "
 let lastName = "Jones"
-let fullName = firstName + lastName
+let fullName = firstName + lastName;
 let population = 620376
 let javaScriptIsCool = true
 let colors = "Red, Orange, Yellow, Green, Blue, Indigo, Purple"
