@@ -1,8 +1,8 @@
 class Room {
     constructor(
         name = "",
-         length = 0, 
-         width = 0,
+        length = 0, 
+        width = 0,
         capcity = 15) {
             this.name = name;
             this.length = length;
