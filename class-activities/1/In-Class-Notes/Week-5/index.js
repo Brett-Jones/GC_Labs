@@ -1,3 +1,65 @@
+// FOR LOOP PRACTICES
+// for(i = 0; i <= 10; i++) {
+//   console.log(i);
+// }
+
+// for(i = 10; i <= 100; i+= 10) {
+//   console.log(i);
+// }
+
+// create an array that has the colors of the rainbow
+
+const colors = [
+  "Red", 
+  "Orange", 
+  "Yellow", 
+  "Green", 
+  "Blue", 
+  "Indigo", 
+  "Violet"
+];
+
+// for of with logic = if color has even # of letters 
+// log even if odd log odd
+
+// for(color of colors) {
+//   console.log(color);
+//   if(color.length % 2) {
+//     console.log(true);
+//   } else {
+//     console.log(false);
+//   }
+// }
+
+// forEach - if the first letter of an element is a vowel
+// override value and make word caps
+
+const vowels = [
+  "A", 
+  "E", 
+  "I", 
+  "O", 
+  "U", 
+  "Y"
+];
+
+colors.forEach((color) => {
+  const firstLetter = color[0];
+  if(vowels.includes(firstLetter)) {
+    color = color.toUpperCase();
+  }  
+  console.log(color)
+});
+
+
+
+
+
+
+
+
+
+
 
 // FOR LOOP EXP
 // const printTens = () => {
