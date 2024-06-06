@@ -57,10 +57,10 @@ const findSubmissionByName = (array, name) => {
 
 const findLowestScore = array => {
 	let result = array[0];
-	let smallest = array[0].score;
+	let smallest = array[0].cost;
 	for (let i = 1; i < array.length; i++) {
 		if (array[i].score < smallest) {
-			smallest = array[i].score;
+			smallest = array[i].cost;
 			result = array[i];
 		}
 	}

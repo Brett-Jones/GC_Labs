@@ -9,15 +9,15 @@
 
 // create an array that has the colors of the rainbow
 
-const colors = [
-  "Red", 
-  "Orange", 
-  "Yellow", 
-  "Green", 
-  "Blue", 
-  "Indigo", 
-  "Violet"
-];
+// const colors = [
+//   "Red", 
+//   "Orange", 
+//   "Yellow", 
+//   "Green", 
+//   "Blue", 
+//   "Indigo", 
+//   "Violet"
+// ];
 
 // for of with logic = if color has even # of letters 
 // log even if odd log odd
@@ -34,22 +34,22 @@ const colors = [
 // forEach - if the first letter of an element is a vowel
 // override value and make word caps
 
-const vowels = [
-  "A", 
-  "E", 
-  "I", 
-  "O", 
-  "U", 
-  "Y"
-];
+// const vowels = [
+//   "A", 
+//   "E", 
+//   "I", 
+//   "O", 
+//   "U", 
+//   "Y"
+// ];
 
-colors.forEach((color) => {
-  const firstLetter = color[0];
-  if(vowels.includes(firstLetter)) {
-    color = color.toUpperCase();
-  }  
-  console.log(color)
-});
+// colors.forEach((color) => {
+//   const firstLetter = color[0];
+//   if(vowels.includes(firstLetter)) {
+//     color = color.toUpperCase();
+//   }  
+//   console.log(color)
+// });
 
 
 
@@ -334,3 +334,11 @@ console.log(newMax)
 
   takes in an index, and returns the element at that 
   index (it supports negative indexing)*/
+
+
+  const countDown = () => {
+    for(let i = 1; i < 5; i++){
+        console.log(i);
+    }
+}
+  
