@@ -1,0 +1,46 @@
+div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    margin-left: 95%;
+  }
+.button{
+    
+
+}
+.header{
+    width: 100%;
+    background-color: lightgrey;
+   
+}
+
+#letters{
+    width: 27%;
+    height: 50%;
+    margin: auto;
+    margin-top: 5%;
+    border: 3px solid green;
+    padding: 10px;
+   
+}
+
+#numbers{
+    width: 27%;
+    height: 50%;
+    margin: auto;
+    margin-top: 5%;
+    border: 3px solid green;
+    padding: 10px;
+   
+}
+
+
+go from display none to display block
+
+
+
+
+
+
+
