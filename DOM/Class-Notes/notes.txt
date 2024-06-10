@@ -1,0 +1,30 @@
+Week 6 Notes
+
+Spare time will be reviewing algorithms & data structures
+
+Interview questions: 
+What are some key features of JS?
+How do JS and coding languages handle text?
+
+Clarifying questions:
+Any particular set of features you'd like me to focus on?
+So what do you mean by "text" strings or text files?
+
+Whiteboard questions: 
+
+Write code without an IDE
+Usually Sudo-code
+
+Each question gets harder as you go
+
+Ask if you can do all Sudo-code
+
+
+
+
+
+
+
+
+
+
