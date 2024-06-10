@@ -1,31 +1,46 @@
 
-document.querySelector("#grow-me").classList.add("big")
 
-const shrinkMe = document.querySelector("#shrink-me")
-shrinkMe.classList.remove("big")
-
-const lis = document.querySelectorAll("li")
-for(const li of lis) console.log(li.innerText)
-
-const link = document.querySelector("a")
-link.setAttribute("href", "https://www.example.com")
-link.innerText = "somewhere"
-
-document.getElementById("hide-me").style.display = "none"
-
-document.getElementById("show-me").style.display = "block"
-
-// e, ev = event
-const setText = e => {
-    const input = document.getElementById("name")
-    const h1 = document.getElementById("name-tag")
-    h1.innerText = "Welcome " + input.value
-}
-
-const button = document.getElementById("change-name-tag")
-button.addEventListener("click", setText)
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+// Close the dropdown menu if the user clicks outside of it
+window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
 
 
+document.getElementById('menuButton').addEventListener('click', function() {
+  var menu = document.getElementById('menu');
+  if (menu.style.display === 'none') {
+    menu.style.display = 'block';
+  } else {
+    menu.style.display = 'none';
+  }
+});
 
+document.getElementById('link1').addEventListener('click', function(event) {
+  event.preventDefault();
+  document.getElementById('content1').style.display = 'block';
+  document.getElementById('content2').style.display = 'none';
+  document.getElementById('menu').style.display = 'none';
+});
 
+document.getElementById('link2').addEventListener('click', function(event) {
+  event.preventDefault();
+  document.getElementById('content1').style.display = 'none';
+  document.getElementById('content2').style.display = 'block';
+  document.getElementById('menu').style.display = 'none';
+});
 
