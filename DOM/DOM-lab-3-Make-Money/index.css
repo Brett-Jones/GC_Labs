@@ -38,12 +38,13 @@
     border-radius: 50%;
     border-color: rgb(75, 47, 16);
     border-style: solid;
-    display: inline-block;
+    display: inline-block;    
 }
 .penny-style{
     display: flex;
     text-align: center;
     justify-content: center;
+    margin: 15px;
 }
 .nickel-container {
     height: 65px;

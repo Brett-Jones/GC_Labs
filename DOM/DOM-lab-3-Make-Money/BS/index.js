@@ -1,4 +1,5 @@
-document.getElementById('coinForm').addEventListener('submit', function(event) {
+document.getElementById('coinForm')
+    .addEventListener('submit', function(event) {
     event.preventDefault();
     
     const count = +document.getElementById('count').value;
