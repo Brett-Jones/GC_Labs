@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex: wrap;
+
+}
+
+button {
+    width: calc(50% -10px);
+    margin: 5px;
+}
+
+.lightbulb {
+    background-color: skyblue;
+    color: palegoldenrod;
+    font-weight: 600;
+    width: 20px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid palegoldenrod;
+}
+
+.off{
+    background-color: midnightblue;
+    color:palevioletred;
+    border: 1px solid;
+}

@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    margin-top: 10px;
+}
+.highLighted{
+    background-color: peachpuff;
+    color:palevioletred;
+    font-weight: 600;
+}
+
+.shape {
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.circle{
+    border-radius: 50%;
+}

@@ -5,5 +5,6 @@
     "prettier.insertPragma": true,
     "prettier.jsxSingleQuote": true,
     "prettier.singleAttributePerLine": true,
-    "prettier.useTabs": true
+    "prettier.useTabs": true,
+    "liveServer.settings.port": 5501
 }
